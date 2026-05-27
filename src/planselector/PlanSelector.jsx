@@ -1,5 +1,5 @@
 import React from 'react';
-import musicIcon from '../../assets/icon-music.svg'; 
+import musicIcon from '../Group 2.svg';
 
 function PlanSelector() {
   return (
