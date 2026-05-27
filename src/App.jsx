@@ -1,5 +1,5 @@
 import React from 'react';
-import OrderCard from './components/OrderCard/OrderCard';
+import OrderCard from './components/OrderCard/OrderCard.jsx';
 import './App.css'; 
 
 function App() {
