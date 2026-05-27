@@ -1,6 +1,6 @@
 import React from 'react';
-import OrderCard from './components/OrderCard/OrderCard.jsx';
-import './App.css'; 
+import OrderCard from './ordercard/OrderCard.jsx';
+import './App.css';
 
 function App() {
   return (
