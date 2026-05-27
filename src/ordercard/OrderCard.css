@@ -1,0 +1,140 @@
+.order-card {
+  max-width: 450px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+  font-family: 'Red Hat Display', sans-serif;
+  text-align: center;
+}
+.hero-image-container {
+  width: 100%;
+}
+.hero-image {
+  width: 100%;
+  display: block;
+}
+.card-content {
+  padding: 45px 48px;
+}
+.order-header h1 {
+  color: #1f2f56;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 16px 0;
+}
+.order-header p {
+  color: #7280a7;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  margin: 0 0 24px 0;
+  padding: 0 10px;
+}
+.plan-selector {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fe;
+  padding: 25px 24px;
+  border-radius: 12px;
+  margin-bottom: 32px;
+}
+.plan-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.plan-info h2 {
+  color: #1f2f56;
+  font-size: 16px;
+  font-weight: 900;
+  margin: 0 0 4px 0;
+  text-align: left;
+}
+.plan-info p {
+  color: #7280a7;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  text-align: left;
+}
+.change-plan-btn {
+  color: #382ae1;
+  font-size: 14px;
+  font-weight: 700;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+.change-plan-btn:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+.action-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.proceed-btn {
+  width: 100%;
+  background-color: #382ae1;
+  color: #ffffff;
+  border: none;
+  padding: 15px 0;
+  border-radius: 11px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.19);
+  transition: background-color 0.2s ease;
+}
+.proceed-btn:hover {
+  background-color: #766cf1;
+}
+.cancel-btn {
+  width: 100%;
+  background: none;
+  border: none;
+  color: #7280a7;
+  font-size: 15px;
+  font-weight: 900;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+.cancel-btn:hover {
+  color: #1f2f56;
+}
+
+@media (max-width: 480px) {
+  .card-content {
+    padding: 32px 24px;
+  }
+  
+  .order-header h1 {
+    font-size: 22px;
+  }
+  
+  .order-header p {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 0;
+  }
+
+  .plan-selector {
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+
+  .plan-info {
+    gap: 16px;
+  }
+
+  .plan-info h2, .plan-info p {
+    font-size: 14px;
+  }
+}
