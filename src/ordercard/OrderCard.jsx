@@ -1,8 +1,9 @@
 import React from 'react';
-import OrderHeader from '../OrderHeader/OrderHeader';
-import PlanSelector from '../PlanSelector/PlanSelector';
-import ActionButtons from '../ActionButtons/ActionButtons';
-import heroImage from '../../assets/illustration-hero.svg'; 
+import './OrderCard.css';
+import OrderHeader from '../orderheader/OrderHeader.jsx';
+import PlanSelector from '../planselector/PlanSelector.jsx';
+import ActionButtons from '../actionbuttons/ActionButtons.jsx';
+import heroImage from '../Music_Flatline.svg';
 
 function OrderCard() {
   return (
